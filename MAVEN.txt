@@ -1,0 +1,46 @@
+CI& CD
+===========
+MAVEN
+======================================
+
+maven run 
+1. with the help of cmd
+2. .bat file
+3. pom file through ide
+4. jenkin
+===========================
+below mentioned method is same for cmd, .bat file
+
+mave has to be installed in os, give environment path
+and we have to give path
+MAVEN_HOME
+M2_HOME 
+Path has to be created then we have to give %MAVEN_HOME%
+%M2_HOME% 
+cd location of our project
+mvn clean install
+
+and save file as run.bat file
+
+====================================================
+jenkin
+===================
+WINDOWS
+service
+RUN AS ADMINISTRATOR
+==============
+
+jenkin its have two type of execution of tests
+1. maven
+2. freestyle project   we have to give run.bat file as above
+
+===============================================
+
+GIT COMMANDS
+==========================
+
+ J:\ScreenshotTest
+gitinit
+
+git remote add origin https://github.com/sivasgit/TestRepo
+
